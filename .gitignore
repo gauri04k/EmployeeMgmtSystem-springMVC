@@ -1,0 +1,65 @@
+# ===============================
+# SPRING BOOT / MAVEN
+# ===============================
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Allow source target exceptions
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===============================
+# MAVEN / BUILD FILES
+# ===============================
+build/
+out/
+
+# ===============================
+# LOG FILES
+# ===============================
+*.log
+
+# ===============================
+# SPRING BOOT CACHE
+# ===============================
+*.lock
+
+# ===============================
+# ECLIPSE IDE
+# ===============================
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+
+# ===============================
+# INTELLIJ IDEA
+# ===============================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ===============================
+# NETBEANS
+# ===============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===============================
+# VS CODE
+# ===============================
+.vscode/
+
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
