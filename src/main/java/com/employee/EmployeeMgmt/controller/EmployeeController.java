@@ -37,13 +37,38 @@ public class EmployeeController {
     }
 
     @GetMapping("/employee/{id}")
-    public String employeeDetails(
-            @PathVariable Long id,
-            Model model) {
+    public String employeeDetails(@PathVariable Long id,
+                                  Model model) {
 
         model.addAttribute("employee",
                 employeeService.getEmployeeById(id));
 
         return "employeeDetails";
+    }
+
+    @GetMapping("/editEmployee/{id}")
+    public String editEmployee(@PathVariable Long id,
+                               Model model) {
+
+        model.addAttribute("employee",
+                employeeService.getEmployeeById(id));
+
+        return "editEmployee";
+    }
+
+    @PostMapping("/updateEmployee")
+    public String updateEmployee(Employee employee) {
+
+        employeeService.saveEmployee(employee);
+
+        return "redirect:/employees";
+    }
+
+    @GetMapping("/deleteEmployee/{id}")
+    public String deleteEmployee(@PathVariable Long id) {
+
+        employeeService.deleteEmployee(id);
+
+        return "redirect:/employees";
     }
 }

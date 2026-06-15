@@ -1,89 +1,49 @@
-<html>
-<head>
+<%@ include file="header.jsp" %>
 
-<title>Add Employee</title>
-
-<style>
-
-body{
-font-family:Segoe UI;
-background:linear-gradient(135deg,#00c6ff,#0072ff);
-padding:30px;
-}
-
-.container{
-width:500px;
-margin:auto;
-background:white;
-padding:30px;
-border-radius:20px;
-box-shadow:0 8px 20px rgba(0,0,0,.2);
-}
-
-h2{
-text-align:center;
-color:#0072ff;
-}
-
-input{
-width:100%;
-padding:12px;
-margin:10px 0;
-border:1px solid #ddd;
-border-radius:10px;
-}
-
-button{
-width:100%;
-padding:12px;
-background:#0072ff;
-color:white;
-border:none;
-border-radius:10px;
-font-size:16px;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<div class="container">
+<div class="custom-card">
 
 <h2>Add Employee</h2>
 
-<form action="saveEmployee"
-method="post">
+<form action="saveEmployee" method="post">
 
-<input type="text"
-name="name"
-placeholder="Employee Name">
+    <div class="mb-3">
+        <label>Name</label>
+        <input type="text" name="name"
+               class="form-control" required>
+    </div>
 
-<input type="number"
-name="age"
-placeholder="Age">
+    <div class="mb-3">
+        <label>Age</label>
+        <input type="number" name="age"
+               class="form-control" required>
+    </div>
 
-<input type="email"
-name="email"
-placeholder="Email">
+    <div class="mb-3">
+        <label>Email</label>
+        <input type="email" name="email"
+               class="form-control" required>
+    </div>
 
-<input type="text"
-name="designation"
-placeholder="Designation">
+    <div class="mb-3">
+        <label>Designation</label>
+        <input type="text" name="designation"
+               class="form-control" required>
+    </div>
 
-<input type="number"
-step="0.01"
-name="salary"
-placeholder="Salary">
+    <div class="mb-3">
+        <label>Salary</label>
+        <input type="number"
+               step="0.01"
+               name="salary"
+               class="form-control" required>
+    </div>
 
-<button type="submit">
-Save Employee
-</button>
+    <button class="btn btn-primary">
+        Save Employee
+    </button>
 
 </form>
 
 </div>
 
-</body>
-</html>
+<%@ include file="footer.jsp" %>

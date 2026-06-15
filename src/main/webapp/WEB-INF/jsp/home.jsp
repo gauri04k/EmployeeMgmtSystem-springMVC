@@ -1,67 +1,27 @@
-<html>
-<head>
+<%@ include file="header.jsp" %>
 
-<title>Dashboard</title>
+<div class="hero-section">
 
-<style>
+    <h1>Employee Management System</h1>
 
-body{
-font-family:Segoe UI;
-background:linear-gradient(120deg,#f6d365,#fda085);
-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-}
+    <p>
+        Manage Employees Efficiently Using Spring Boot & JSP
+    </p>
 
-.card{
-text-align:center;
-padding:50px;
-background:white;
-border-radius:20px;
-width:500px;
-box-shadow:0 10px 30px rgba(0,0,0,.2);
-}
+    <div class="mt-4">
 
-h1{
-color:#444;
-margin-bottom:30px;
-}
+        <a href="/employees"
+           class="btn btn-primary btn-lg">
+           View Employees
+        </a>
 
-a{
-display:block;
-margin:15px;
-padding:15px;
-background:#ff6b6b;
-color:white;
-text-decoration:none;
-border-radius:10px;
-font-size:18px;
-}
+        <a href="/addEmployee"
+           class="btn btn-outline-dark btn-lg ms-2">
+           Add Employee
+        </a>
 
-a:hover{
-background:#ff5252;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<div class="card">
-
-<h1>Employee Management System</h1>
-
-<a href="addEmployee">
-➕ Add Employee
-</a>
-
-<a href="employees">
-📋 View Employees
-</a>
+    </div>
 
 </div>
 
-</body>
-</html>
+<%@ include file="footer.jsp" %>

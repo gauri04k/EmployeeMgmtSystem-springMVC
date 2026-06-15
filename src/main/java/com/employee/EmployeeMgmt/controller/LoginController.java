@@ -19,6 +19,11 @@ public class LoginController {
         return "login";
     }
 
+    @GetMapping("/login")
+    public String showLoginPage() {
+        return "login";
+    }
+
     @GetMapping("/register")
     public String registerPage() {
         return "registerUser";
