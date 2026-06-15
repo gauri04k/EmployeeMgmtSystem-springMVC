@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-A Full Stack Employee Management Application built using Spring Boot, Spring MVC, JSP, Hibernate/JPA and MySQL.
+Employee Management System is a web-based application developed using **Spring Boot, Spring MVC, JSP, Hibernate/JPA, and MySQL**. The application allows users to register, login, and manage employee records efficiently through complete CRUD operations.
 </p>
 
 <p align="center">
@@ -15,10 +15,6 @@ A Full Stack Employee Management Application built using Spring Boot, Spring MVC
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Spring+Boot+MVC+Project;Employee+Management+System;JSP+%7C+Hibernate+%7C+MySQL;Full+CRUD+Operations;Java+Developer+Project">
 </p>
-
-# 🚀 Employee Management System
-
-Employee Management System is a web-based application developed using **Spring Boot, Spring MVC, JSP, Hibernate/JPA, and MySQL**. The application allows users to register, login, and manage employee records efficiently through complete CRUD operations.
 
 ---
 
