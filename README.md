@@ -89,19 +89,27 @@ src/main/webapp/WEB-INF/jsp
 
 ### Login Page
 
-Add screenshot here
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bfedd9c6-eb79-4d63-9ddc-fd7f96301d57" />
+
 
 ### Home Dashboard
 
-Add screenshot here
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7cfea0d1-94e1-4f31-8e77-a179e6f27949" />
+
 
 ### Employee List
 
-Add screenshot here
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3fc5c422-d750-4c29-866c-e6ec7c9dc666" />
+
 
 ### Employee Details
 
-Add screenshot here
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/279a0553-230a-4a15-8f10-ffae5bcfc2eb" />
+
+### EDIT Employee 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b4f1fd47-3b0d-4878-83a9-569c96dd1b8f" />
+
 
 ---
 
